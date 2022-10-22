@@ -1,0 +1,246 @@
+.container {
+  margin: auto;
+  max-width: 800px;
+  padding-top: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.column-one-fifth {
+  flex-basis: calc(100%/5);
+}
+
+.font-padding-color {
+  font-family: Avenir, sans-serif;
+  font-size: 13px;
+  padding-top: 22px;
+  color: rgb(185 185 185);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.contact-us-btn {
+  height: 35px;
+  width: 80px;
+  background-color: rgb(41 67 99);
+  color: rgb(250 251 251);
+  border-radius: 5px;
+  position: relative;
+  top: 7px;
+  font-size: 13px;
+  font-family: Avenir, sans-serif;
+}
+
+.contact-us-padding {
+  padding-top: 10px;
+}
+
+.hero-img {
+  height: 410px;
+  width: 800px;
+}
+
+.img-overlay {
+  height: 100%;
+  width: 100%;
+  background: #000;
+  opacity: 0.9;
+}
+
+.hero-para {
+  font-family: Avenir, sans-serif;
+  line-height: 19px;
+  font-size: 10px;
+  letter-spacing: 0.07px;
+  color: white;
+  max-width: 330px;
+  position: relative;
+  bottom: 350px;
+  margin-left: 50px;
+}
+
+.hero-title {
+  line-height: 35px;
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.01px;
+  position: relative;
+  bottom: 350px;
+  margin-left: 50px;
+}
+
+.hero-position {
+  position: absolute;
+  top: 150px;
+  bottom: 150px;
+  left: 90px;
+  right: 100px;
+}
+
+.get-started-button {
+  background-color: rgb(41 67 99);
+  color: white;
+  height: 36px;
+  width: 130px;
+  border-radius: 3px;
+  font-family: Avenir, sans-serif;
+  border: none;
+  position: relative;
+  bottom: 350px;
+  margin-left: 50px;
+}
+
+.column-three-fourth {
+  flex-basis: 75%;
+}
+
+.height {
+  height: 9px;
+}
+
+.clinicians-title {
+  flex-basis: 100%;
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+  color: rgb(110 110 110);
+  margin-top: 35px;
+}
+
+.col-full-background {
+  background-color: rgb(250 250 250);
+}
+
+.clinicians-para {
+  color: rgb(110 110 110);
+  font-family: Avenir, sans-serif;
+  margin-left: 240px;
+  margin-right: 240px;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 700;
+}
+
+.locations {
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  text-align: center;
+  background-color: rgb(250 250 250);
+  font-family: Avenir, sans-serif;
+  font-size: 11px;
+  color: rgb(110 110 110);
+  line-height: 15px;
+  font-weight: 700;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.ready {
+  flex-basis: 50%;
+  text-align: center;
+  color: rgb(117 117 117);
+  font-size: 13px;
+  line-height: 10px;
+}
+
+.ready-button {
+  text-align: center;
+  height: 35px;
+  width: 120px;
+  background-color: rgb(41 67 99);
+  color: rgb(250 251 251);
+  font-family: Avenir, sans-serif;
+  border: none;
+  border-radius: 5px;
+  position: relative;
+  top: 25px;
+  left: 90px;
+}
+
+.row-padding {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.schedule-font {
+  font-family: Avenir, sans-serif;
+  font-size: 10px;
+  position: relative;
+  right: 73px;
+}
+
+.ready-position {
+  position: relative;
+  right: 55px;
+}
+
+.info {
+  background-color: rgb(82 83 81);
+  color: rgb(251 251 251);
+  text-align: left;
+  font-family: Avenir, sans-serif;
+  padding: 20px 60px;
+}
+
+.canvas-font {
+  font-family: Avenir, sans-serif;
+  font-weight: 50;
+  font-size: 30px;
+  letter-spacing: 1.2px;
+}
+
+.address-line-height {
+  line-height: 11px;
+  font-size: 11px;
+  position: relative;
+  top: 55px;
+}
+
+.company-product-text {
+  font-family: Avenir, sans-serif;
+  font-size: 12px;
+  padding: 20px 40px;
+}
+
+.privacy-p {
+  display: inline;
+}
+
+.privacy {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  src: url("Avenir.woff2") format("woff2");
+  font-size: 10.5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: rgb(250 250 250);
+  padding-left: 60px;
+  color: rgb(110 110 110);
+}
+
+.contact-us-bottom {
+  padding-left: 40px;
+}
+
+.blue-logo {
+  width: 90px;
+  position: relative;
+  top: 38px;
+  left: 3px;
+}
+
+.white-logo {
+  width: 90px;
+  position: relative;
+  top: 35px;
+  left: 3px;
+}
